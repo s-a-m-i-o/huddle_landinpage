@@ -1,0 +1,21 @@
+
+body {
+    background: url('/src/images/bg-mobile.svg')  hsl(228, 45%, 44%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width:768px) {
+    body {
+        background: url('/src/images/bg-desktop.svg')  hsl(228, 45%, 44%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+}
