@@ -3,11 +3,18 @@ body {
     background: url('/src/images/bg-mobile.svg')  hsl(228, 45%, 44%);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Roboto", sans-serif;
 }
 
 img {
     width: 100%;
     height: auto;
+}
+
+h1,
+p {
+    color: #fff;
+    text-align: center;
 }
 
 @media (min-width:768px) {
