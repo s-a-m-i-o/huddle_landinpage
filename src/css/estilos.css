@@ -12,10 +12,17 @@ header img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.lateral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     gap: 30px;
 }
 
-.conteudo .btn {
+.conteudo .lateral .btn {
     background-color: aliceblue;
     padding: 15px 80px;
     border-radius: 30px;
@@ -55,5 +62,44 @@ footer .redes i:hover {
 @media (min-width:768px) {
     .conteudo {
         flex-direction: row;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .conteudo img {
+        width: 100%;
+    }
+
+    .conteudo .lateral {
+        align-items: flex-start;
+        padding: 20px;
+        justify-content: flex-start;
+        width:80%;
+        height: 400px;
+        max-height: 450px;
+    }
+
+    .lateral h1 {
+        max-width: 350px;
+        font-size: 2rem;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    .conteudo .descricao {
+        text-align: left;
+        padding-right: 50px;
+    }
+
+    footer {
+
+        width: 100%;
+        padding: 30px;
+    }
+
+    footer .redes {
+        justify-content: flex-end;
+        gap: 30px;
+        width: 90%;
     }
 }

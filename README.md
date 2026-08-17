@@ -1,105 +1,299 @@
-# Frontend Mentor - Huddle landing page with single introductory section
+# 💜 Huddle — Landing Page
 
-![Design preview for the Huddle landing page with single introductory section](preview.jpg)
+> Projeto desenvolvido como parte dos desafios do **[Frontend Mentor](https://www.frontendmentor.io/)**, com o objetivo de praticar HTML e CSS na construção de uma landing page responsiva.
 
-## Welcome! 👋
+---
 
-Thanks for checking out this front-end coding challenge.
+## 📸 Preview
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+![Preview do projeto](./preview.png)
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+---
 
-## The challenge
+## 🎯 Sobre o desafio
 
-Your challenge is to build out this landing page from the designs provided in the starter code.
+Este projeto é baseado no desafio **Huddle landing page with a single introductory section**, disponibilizado pelo Frontend Mentor.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+A proposta é reproduzir uma página de apresentação a partir de um design fornecido, buscando manter o máximo de fidelidade possível ao layout original.
 
-Your users should be able to:
+O principal objetivo foi praticar a construção de uma interface utilizando **HTML e CSS**, trabalhando principalmente com:
 
-- View the optimal layout for the page depending on their device's screen size
-- See hover states for all interactive elements on the page
+* Estrutura semântica do HTML
+* Flexbox
+* Responsividade
+* Media Queries
+* Espaçamento e alinhamento
+* Tipografia
+* Estados `:hover`
+* Organização do CSS
+* Adaptação do layout para diferentes tamanhos de tela
 
-### Want some support on the challenge? 
+---
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+## 🛠️ Tecnologias utilizadas
 
-## Where to find everything
+<div align="center">
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![Bootstrap Icons](https://img.shields.io/badge/Bootstrap%20Icons-7952B3?style=for-the-badge\&logo=bootstrap\&logoColor=white)
+![Google Fonts](https://img.shields.io/badge/Google%20Fonts-4285F4?style=for-the-badge\&logo=googlefonts\&logoColor=white)
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+</div>
 
-If you would like the Figma design file to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+### Utilizados no projeto
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+**HTML5**
+Responsável pela estrutura e organização dos elementos da página.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+**CSS3**
+Utilizado para estilização, posicionamento, responsividade, efeitos e adaptação do layout.
 
-## Using AI coding assistants
+**Flexbox**
+Utilizado principalmente para organizar os elementos do conteúdo principal, botão e redes sociais.
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+**Media Queries**
+Utilizadas para adaptar a página entre dispositivos menores e telas maiores.
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+**Bootstrap Icons**
+Utilizado para os ícones das redes sociais no rodapé.
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+**Google Fonts**
+Utilizado para aplicar a fonte `Roboto` ao projeto.
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+---
 
-## Building your project
+## 🧱 Estrutura do projeto
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+```text
+📦 huddle-landing-page
+│
+├── 📄 index.html
+│
+├── 📁 src
+│   │
+│   ├── 📁 css
+│   │   ├── reset.css
+│   │   ├── global.css
+│   │   └── estilos.css
+│   │
+│   └── 📁 images
+│       ├── logo.svg
+│       ├── illustration-mockups.svg
+│       └── favicon-32x32.png
+│
+└── 📄 README.md
+```
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+---
 
-## Deploying your project
+## 🎨 Como a página foi construída
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+### 1. Estrutura HTML
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+A página foi dividida em três partes principais:
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
+```html
+<header>
+```
 
-## Create a custom `README.md`
+Responsável pelo logo.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+```html
+<main>
+```
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+Responsável pelo conteúdo principal da landing page.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+```html
+<footer>
+```
 
-## Submitting your solution
+Responsável pelos links das redes sociais.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
+Dentro do `main`, o conteúdo foi dividido entre a ilustração e a área de texto:
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+```text
+MAIN
+│
+└── SECTION
+    │
+    ├── Ilustração
+    │
+    └── Lateral
+        ├── Título
+        ├── Descrição
+        └── Botão
+```
 
-## Sharing your solution
+---
 
-There are multiple places you can share your solution:
+## 📐 Layout e responsividade
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community).
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+No início, o conteúdo é organizado verticalmente para telas menores:
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
+```css
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+```
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+Para telas maiores, o layout passa a utilizar duas colunas:
 
-## Got feedback for us?
+```css
+@media (min-width: 768px) {
+    .conteudo {
+        flex-direction: row;
+    }
+}
+```
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+Dessa forma, a ilustração fica de um lado e o conteúdo textual do outro.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+---
 
-**Have fun building!** 🚀
+## 🔤 Controle da quebra do título
+
+Um dos ajustes realizados foi controlar a largura máxima do título para reproduzir a quebra de linha presente no design original.
+
+```css
+.lateral h1 {
+    max-width: 300px;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+```
+
+Assim, o navegador consegue distribuir o texto de forma semelhante ao modelo:
+
+```text
+Build The Community
+Your Fans Will Love
+```
+
+---
+
+## 📱 Footer responsivo
+
+O rodapé também foi adaptado para diferentes tamanhos de tela.
+
+Em telas maiores, os ícones das redes sociais ficam alinhados à direita:
+
+```css
+footer .redes {
+    justify-content: flex-end;
+    gap: 30px;
+}
+```
+
+Além disso, o `body` utiliza Flexbox para manter o footer no final da página sem precisar utilizar `position: fixed`:
+
+```css
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+```
+
+---
+
+## ✨ Interações
+
+O botão e os ícones das redes sociais possuem efeitos de `hover`.
+
+### Botão
+
+```css
+.btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+```
+
+### Redes sociais
+
+```css
+.redes i:hover {
+    color: hsl(300, 69%, 71%);
+}
+```
+
+Esses pequenos efeitos ajudam a deixar a interface mais dinâmica e próxima da proposta original.
+
+---
+
+## 📚 O que pratiquei neste projeto
+
+* [x] HTML5
+* [x] CSS3
+* [x] Flexbox
+* [x] Media Queries
+* [x] Responsividade
+* [x] Pseudo-classes
+* [x] Tipografia
+* [x] Organização de arquivos
+* [x] Estrutura semântica
+* [x] Posicionamento de elementos
+* [x] Controle de espaçamento
+* [x] Utilização de bibliotecas de ícones
+
+---
+
+## 🚀 O que pretendo melhorar
+
+Este projeto faz parte do meu processo de aprendizado em desenvolvimento Front-End.
+
+Alguns pontos que podem ser aprimorados futuramente:
+
+* Melhorar a precisão do layout em diferentes resoluções
+* Refinar os espaçamentos
+* Melhorar a acessibilidade
+* Adicionar estados de foco (`:focus`)
+* Aperfeiçoar a responsividade para dispositivos menores
+* Evoluir a organização e reutilização do CSS
+
+---
+
+## 🧠 Aprendizados
+
+Mais do que simplesmente reproduzir uma imagem, este desafio serviu para entender melhor como transformar um design visual em uma estrutura real utilizando HTML e CSS.
+
+Um dos principais aprendizados foi perceber que **pequenos detalhes fazem uma grande diferença no resultado final**: largura dos elementos, espaçamento, alinhamento, tamanho da fonte e comportamento em diferentes telas.
+
+> "Código bom não é apenas aquele que funciona. É aquele que também faz sentido quando você volta para ele depois."
+
+---
+
+## 🏆 Frontend Mentor
+
+Desafio disponibilizado por:
+
+**Frontend Mentor**
+
+O Frontend Mentor fornece desafios de desenvolvimento Front-End baseados em designs reais, permitindo praticar a construção de interfaces utilizando HTML, CSS e JavaScript.
+
+🔗 [Acessar o Frontend Mentor](https://www.frontendmentor.io/)
+
+---
+
+## 👨‍💻 Desenvolvido por
+
+**Samio Andrade Azeredo**
+
+Projeto desenvolvido para prática e evolução dos conhecimentos em **Desenvolvimento Front-End**.
+
+---
+
+<div align="center">
+
+### 💜 Desenvolvido com HTML + CSS
+
+**Um desafio por vez. Uma linha de código por vez.**
+
+</div>
